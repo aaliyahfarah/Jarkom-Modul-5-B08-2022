@@ -33,7 +33,7 @@
   + [Soal D6](#soal-6)
   + [Kendala](#kendala)
   
-  ## Soal 1
+  ## Soal A
  
    ***Tugas pertama kalian yaitu membuat topologi jaringan sesuai dengan rancangan yang diberikan Loid dibawah ini. Keterangan :***
    
@@ -48,7 +48,7 @@
   ![topologi ](https://user-images.githubusercontent.com/73101444/206859823-eb098747-0457-4928-bf36-cc242de7ce07.png)
  
   
-  ## Soal 2
+  ## Soal B
   
   ***Untuk menjaga perdamaian dunia, Loid ingin meminta kalian untuk membuat topologi tersebut menggunakan teknik CIDR atau VLSM setelah melakukan subnetting.***
   
@@ -86,13 +86,9 @@ iface eth2 inet static
          netmask 255.255.255.252
 ```
   
-  ## Soal 3
+  ## Soal C
   
-  ## Soal 4
-  
-  ## Soal 5
-  
-  ## Soal 6
+  ## Soal D
   
   ## Soal D1
   
