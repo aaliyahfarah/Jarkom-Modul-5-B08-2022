@@ -71,7 +71,7 @@
   | Jumlah | 1233 | /21 | 255.255.248.0 | - |
   
   
- - SETTING INTERFACE PADA GNS3
+ ### SETTING INTERFACE PADA GNS3
  **Strix**
 ```
 auto eth0
@@ -85,7 +85,139 @@ iface eth2 inet static
          address 192.186.0.5
          netmask 255.255.255.252
 ```
-  
+
+**Ostania**
+
+```
+auto eth0
+iface eth0 inet static
+          address 10.7.0.6
+          netmask 255.255.255.252
+          gateway 10.7.0.5
+
+auto eth1
+iface eth1 inet static
+          address 10.7.3.1
+          netmask 255.255.255.0
+
+auto eth2
+iface eth2 inet static
+          address 10.7.2.1
+          netmask 255.255.255.0
+
+auto eth3
+iface eth3 inet static
+          address 10.7.0.25
+          netmask 255.255.255.248
+```
+
+
+**Westalis**
+
+```
+auto eth0
+iface eth0 inet static
+        address 10.7.0.2
+        netmask 255.255.255.252
+        gateway 10.7.0.1
+
+auto eth1
+iface eth1 inet static
+        address 10.7.0.17
+        netmask 255.255.255.248
+
+auto eth2
+iface eth2 inet static
+         address 10.7.0.65
+         netmask 255.255.255.192
+
+auto eth3
+iface eth3 inet static
+         address 10.7.4.1
+         netmask 255.255.252.0
+```
+
+**Eden**
+
+```
+auto eth0
+iface eth0 inet static
+       address 10.7.0.18
+       netmask 255.255.255.248
+       gateway 10.7.0.17
+```
+
+**WISE**
+
+```
+auto eth0
+iface eth0 inet static
+       address 10.7.0.19
+       netmask 255.255.255.248
+       gateway 10.7.0.17
+```
+
+**Forger(62Host)**
+
+```
+auto eth0
+iface eth0 inet static
+      address 10.7.0.66
+      netmask 255.255.255.192
+      gateway 10.7.0.65
+```
+
+**Desmond(700Host)**
+
+```
+auto eth0
+iface eth0 inet static
+       address 10.7.4.2
+      netmask 255.255.252.0
+       gateway 10.7.4.1
+```
+
+**Briar(200Host)**
+
+```
+auto eth0
+iface eth0 inet static
+       address 10.7.2.2
+       netmask 255.255.255.0
+       gateway 10.7.2.1
+```
+
+**Blackbell(255Host)**
+
+```
+auto eth0
+iface eth0 inet static
+       address 10.7.3.2
+       netmask 255.255.255.0
+       gateway 10.7.3.1
+
+```
+
+**Garden**
+
+```
+auto eth0
+iface eth0 inet static
+       address 10.7.0.26
+       netmask 255.255.255.248
+       gateway 10.7.0.25
+```
+
+**SSS**
+
+```
+auto eth0
+iface eth0 inet static
+       address 10.7.0.27
+       netmask 255.255.255.248
+       gateway 10.7.0.25
+```
+
   ## Soal C
   
   ***Anya, putri pertama Loid, juga berpesan kepada anda agar melakukan Routing agar setiap perangkat pada jaringan tersebut dapat terhubung.***
